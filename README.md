@@ -46,3 +46,4 @@ git push origin master
 
 回退成功。
 
+2. git revert
