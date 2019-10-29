@@ -35,7 +35,7 @@ git push origin master
 
 > 适合不是很多人（少于4人，或者单人）的协同开发项目。
 
-情形一：当A在`master`本地提交了一次了`commit`后（没有提交远程分支）。这个时候通过`git reflog`可以查看所有的`reset`和commit`。通过`git reset --hard [HEAD]`回退到当前`HEAD`。(`git log`可以查看所有提交至远程的`commit`记录)
+情形一：当A在`master`本地提交了一次了`commit`后（没有提交远程分支）。这个时候通过`git reflog`可以查看所有的`reset`和commit`。通过`git reset --hard [HEAD]`回退到当前`HEAD`。(`git log`可以查看所有的`commit`记录)
 
 
 情形二：当A在`master`本地提交了一次了`commit`后，并提交至远程后。并且B`pull`了最新的代码。然后你猛的发现提交代码有误。这个时候怎么办？
@@ -48,4 +48,4 @@ git push origin master
 
 > 还原没某次提交
 
-
+错误代码
