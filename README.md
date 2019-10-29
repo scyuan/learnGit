@@ -47,8 +47,3 @@ git push origin master
 回退成功。
 
 2. git revert
-
-revert error
-
-
-revert error 2
