@@ -48,6 +48,3 @@ git push origin master
 
 2. git revert
 
-commit 2 提交
-
-commit 3 提交
