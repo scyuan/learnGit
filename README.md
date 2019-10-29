@@ -48,7 +48,4 @@ git push origin master
 
 2. git revert
 
-revert error
 
-
-revert error 2
