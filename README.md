@@ -1,3 +1,11 @@
+### Git的一些基本知识
+
+1. Working Directory（工作区）
+2. Stage area（暂存区）
+3. Git Directory（git 仓库）
+
+**工作区**也就是我们正在编辑的文件、`git add .`之后会将我们修改后的改动保存到**暂存区**。暂存区的内容就是下一次`commit`所提交的内容。`git commit`会将暂存区内容提交到Git Directory（我习惯叫git仓库，网上也有叫版本库的）。仓库当然就是存放项目元数据和对象数据库的地方。
+
 ### 初始化一个项目
 
 1. 建立本地仓库
@@ -67,4 +75,9 @@ git revert [HEAD]
 ```
 git revert c2c2c2
 ```
+
+3. 一些其他命令
+
+
+4. 其他
 
