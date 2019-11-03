@@ -83,5 +83,3 @@ git revert c2c2c2
 ```
 
 3. 一些其他命令
-
-4. haha
