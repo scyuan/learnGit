@@ -35,6 +35,10 @@ git remote add origin https://github.com/scyuan/learnGit.git
 git push origin master 
 ```
 
+==补充==
+
+当使用代码 `git push -u origin master` 时，表示把`origin`设置为默认主机，则再次推送代码时可简写为 `git push`
+
 
 
 ### 版本回退
